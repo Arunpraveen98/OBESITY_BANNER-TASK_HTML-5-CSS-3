@@ -10,6 +10,7 @@ body {
   color: white;
   padding: 50px;
 }
+
 #logo {
   position: relative;
   bottom: 4px;
@@ -39,17 +40,25 @@ body {
   left: 40px;
 }
 
-#con {
+/* common grid-container for all content */
+
+.grid-container {
   border: 6px solid gray;
   margin-top: 2cm;
   width: 22cm;
-  height: 425px;
   position: relative;
   left: 100px;
+}
+
+/* content-1 */
+
+#con-1-id {
+  height: 425px;
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-areas: "c-1 c-2";
 }
+
 #group {
   width: 80px;
   height: 80px;
@@ -78,14 +87,11 @@ body {
   background-color: lightskyblue;
 }
 
-#con2 {
-  border: 6px solid gray;
-  background-color: rgb(253, 55, 55);
-  margin-top: 2cm;
-  width: 22cm;
+/* content-2 */
+
+#con-2-id {
   height: 400px;
-  position: relative;
-  left: 100px;
+  background-color: rgb(255, 44, 44);
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 60% 40%;
@@ -105,6 +111,7 @@ body {
   padding-left: 34px;
   padding-top: 70px;
 }
+
 #smoke {
   width: 70px;
   height: 70px;
@@ -132,32 +139,33 @@ body {
   padding: 34px;
 }
 
-#con3 {
-  border: 6px solid gray;
-  background-color: lightskyblue;
-  margin-top: 2cm;
-  width: 22cm;
+/* content-3 */
+
+#con-3-id {
   height: 400px;
-  position: relative;
-  left: 100px;
+  background-color: rgb(124, 218, 247);
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-areas: "col-5 col-6";
 }
+
 #col-5 {
   grid-area: col-5;
   padding-top: 40px;
   padding-left: 20px;
   margin: 5px;
 }
+
 .material-symbols-outlined {
   font-variation-settings: "FILL" 10, "wght" 800, "GRAD" 0, "opsz" 48;
 }
+
 #warning {
   border: 1px solid black;
   width: 27px;
   background-color: black;
 }
+
 #col-6 {
   grid-area: col-6;
   padding-top: 120px;
@@ -166,13 +174,10 @@ body {
   margin: 5px;
 }
 
-#con4 {
-  border: 6px solid gray;
-  margin-top: 2cm;
-  width: 22cm;
+/* content-4 */
+
+#con-4-id {
   height: 400px;
-  position: relative;
-  left: 100px;
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-areas: "col-7 col-8";
@@ -184,6 +189,7 @@ body {
   padding-top: 40px;
   text-align: center;
 }
+
 #frenchfry {
   width: 100px;
   height: 100px;
@@ -202,14 +208,11 @@ body {
   border-radius: 50%;
 }
 
-#con5 {
-  border: 6px solid gray;
-  margin-top: 2cm;
-  width: 22cm;
+/* content-5 */
+
+#con-5-id {
   height: 250px;
-  position: relative;
-  left: 100px;
-  background-color: lightskyblue;
+  background-color: rgb(110, 219, 252);
   display: grid;
   grid-template-columns: 70% 30%;
 }
@@ -224,6 +227,7 @@ body {
 #sub-head {
   padding-left: 30px;
 }
+
 #remote {
   width: 200px;
   height: 200px;
@@ -232,17 +236,15 @@ body {
   bottom: 140px;
 }
 
-#con6 {
-  border: 6px solid gray;
-  margin-top: 2cm;
-  width: 22cm;
+/* content-6 */
+
+#con-6-id {
   height: 255px;
-  position: relative;
-  left: 100px;
-  background-color: rgb(250, 177, 42);
+  background-color: rgb(246, 172, 34);
   display: grid;
   grid-template-columns: 70% 30%;
 }
+
 #head2 {
   font-weight: bold;
   padding-top: 2px;
@@ -253,6 +255,7 @@ body {
 #subhead2 {
   padding-left: 11px;
 }
+
 #cycle {
   width: 150px;
   height: 150px;
@@ -262,21 +265,20 @@ body {
   bottom: 190px;
 }
 
-#con7 {
-  border: 6px solid gray;
-  margin-top: 2cm;
-  width: 22cm;
+/* content-7 */
+
+#con-7-id {
   height: 450px;
-  position: relative;
-  left: 100px;
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-areas: "col-10 col-11";
 }
+
 #col-10 {
   grid-area: col-10;
   background-color: lightskyblue;
 }
+
 #money {
   width: 90px;
   height: 90px;
