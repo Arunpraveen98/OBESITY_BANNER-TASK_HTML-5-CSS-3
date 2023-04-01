@@ -172,6 +172,7 @@ body {
 }
 
 /* Section-6 */
+
 .content--5 {
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -179,14 +180,6 @@ body {
   background-color: rgb(39, 145, 232);
   padding: 20px;
 }
-
-/* .content--5 .child--1 {
-  justify-self: center;
-} */
-
-/* .content--5 .child--1 p span {
-  letter-spacing: 7px;
-} */
 
 .content--5 .child--2 {
   align-self: center;
@@ -203,10 +196,6 @@ body {
   background-color: rgb(254, 144, 26);
   padding: 20px;
 }
-
-/* .content--6 .child--1 p span:first-child {
-  letter-spacing: 7px;
-} */
 
 .content--6 .child--2 {
   align-self: end;
