@@ -1,235 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+:root {
+  --banner-bg-color: #f2f2f2;
+  --border-seperate-color: #99acba;
+  --primary-font: "Poppins", sans-serif;
+}
 * {
-  margin: 0;
   padding: 0;
+  margin: 0;
   box-sizing: border-box;
+  font-family: var(--primary-font);
+  background-color: rgb(48, 47, 47);
 }
-
-body {
-  font-family: "Roboto", sans-serif;
-  background-color: #27314a;
+.container-bg {
+  background-color: var(--banner-bg-color);
+  height: 100%;
 }
-
-.container {
-  max-width: 780px !important;
-  margin: 20px auto;
+.border-seperate {
+  border-right: 2px dashed var(--border-seperate-color);
 }
-
-.container-content {
-  max-width: 580px !important;
-  margin: auto;
-  padding: 30px 0;
+.num {
+  font-size: 50px;
 }
-
-.main-grid {
-  display: grid;
-  grid-template-columns: repeat(1, fr);
-  row-gap: 50px;
-}
-
-.text-hd {
-  font-size: 70px;
-}
-
-.text-bgt {
-  font-size: 55px;
-}
-
-.text-bg {
+.percent {
   font-size: 40px;
-}
-
-.text-md {
-  font-size: 25px;
-}
-
-.text-caps {
-  text-transform: uppercase;
-}
-
-.text-center {
-  text-align: center;
-}
-
-.text-bold {
-  font-weight: bolder;
-}
-
-.text-underline {
-  text-decoration: underline;
-}
-
-/* section-1:heading */
-
-.heading {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-columns: 1fr 2fr;
-  column-gap: 10px;
-  justify-items: center;
-}
-
-.heading-logo {
-  justify-self: end;
-  align-self: center;
-  background-color: rgb(29, 117, 248);
-  padding: 6px;
-  border: 3px solid white;
-  border-radius: 50%;
-}
-
-.heading .heading-content {
-  justify-self: start;
-}
-
-.heading-content h1 {
-  color: rgb(255, 255, 255);
-}
-.heading-content h2 {
-  color: rgb(255, 255, 255);
-}
-/* section-2 */
-
-.content--1 {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
-
-.content--1 .child--1,
-.content--1 .child--2 {
-  padding: 30px 0;
-}
-
-.content--1 .child--1 {
-  /* justify-self: center; */
-  background-color: rgb(252, 91, 33);
-}
-
-.content--1 .child--2 {
-  background-color: rgb(26, 106, 235);
-}
-
-/* Section-3*/
-
-.content--2 {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  row-gap: 20px;
-  background-color: rgb(246, 49, 170);
-  padding: 10px;
-}
-
-.content--2 .child--3 {
-  grid-column: 1 / span2;
-}
-
-.content--2 .child--2 {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-}
-
-.content--2 .child--2 i {
-  color: black;
-}
-
-/* section-4 */
-
-.content--3 {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  row-gap: 10px;
-  background-color: rgb(39, 145, 232);
-  padding: 10px;
-}
-
-.content--3 .child--1 {
-  padding-left: 10px;
-}
-
-.content--3 .child--2 {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  justify-items: center;
-}
-
-/* Section-5 */
-
-.content--4 {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
-
-.content--4 .child--1,
-.content--4 .child--2 {
-  padding: 30px 0;
-}
-
-.content--4 .child--1 {
-  background-color: rgb(246, 49, 170);
-}
-
-.content--4 .child--2 {
-  background-color: rgb(254, 144, 26);
-}
-
-/* Section-6 */
-
-.content--5 {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  grid-template-columns: 80% 20%;
-  background-color: rgb(39, 145, 232);
-  padding: 20px;
-}
-
-.content--5 .child--2 {
-  align-self: center;
-}
-
-.content--5 .child--2 i {
-  color: black;
-}
-
-/* Section7 */
-.content--6 {
-  display: grid;
-  grid-template-columns: 80% 20%;
-  background-color: rgb(254, 144, 26);
-  padding: 20px;
-}
-
-.content--6 .child--2 {
-  align-self: end;
-}
-
-.content--6 .child--2 i {
-  color: rgb(246, 49, 170);
-}
-
-/* section8*/
-
-.content--7 {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
-
-.content--7 .child--1,
-.content--7 .child--2 {
-  padding: 30px 0;
-}
-
-.content--7 .child--1 {
-  background-color: rgb(39, 145, 232);
-}
-
-.content--7 .child--2 {
-  background-color: rgb(246, 49, 170);
-}
-
-.content--7 .child--1 i {
-  padding-bottom: 10px;
-}
-
-.content--7 .child--2 p:last-child {
-  padding-top: 10px;
-  line-height: 1.4;
 }
